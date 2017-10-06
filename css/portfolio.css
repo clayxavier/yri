@@ -1,6 +1,13 @@
-@font-family{
-	font-family:Bebas;
-	src:url(BEBAS.ttf);
+@font-face {
+    font-family: 'bebas';
+    src: url('bebas-webfont.eot');
+    src: url('bebas-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bebas-webfont.woff2') format('woff2'),
+         url('bebas-webfont.woff') format('woff')
+         url('bebas.ttf') format('ttf');
+        
+    font-weight: normal;
+    font-style: normal;
 }
 
 body{
