@@ -1,3 +1,8 @@
+@font-family{
+	font-family:Bebas;
+	src:url(BEBAS.ttf);
+}
+
 body{
 	background-color:#C1E1E3;
 	font-family:Proxima Nova;
