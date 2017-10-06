@@ -9,7 +9,8 @@
 			<h3>Welcome to my portfolio!</h3>
 		</div>
 		<hr />
-		<div class=list>
+		<div id="welcomeMsg">Yo what's good fam</div>
+		<div class="list">
 			<ul>
 				<li>Saxophone</li>
 				<li>Music Production</li>
@@ -23,6 +24,19 @@
 
 
 
+	<script>
 
-	<body/>
+      //the document.onload is an event that trigger
+      //the function myFunction() when the documents is loaded 
+      document.onload = myFunction();
+
+      //myFunction now searchs for the id 
+      function myFunction(){
+      	var messageList = ["Hola", "Hello", "Bonjour", "Kamusta", "suh dude"];
+      	var randomNumber = Math.floor(Math.random() * messageList.length);
+        document.getElementById("welcomeMsg").innerHTML = messageList[randomNumber]; 
+      }
+
+    </script>
+	</body>
 </html>
